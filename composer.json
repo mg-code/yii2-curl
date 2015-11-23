@@ -1,0 +1,24 @@
+{
+    "name": "mg-code/yii2-curl",
+    "description": "cURL wrapper",
+    "keywords": ["yii2", "extension", "curl"],
+    "homepage": "https://bitbucket.org/mg-code/yii2-curl",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Maris Graudins",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+		"ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mgcode\\curl\\": ""
+        }
+    }
+}
